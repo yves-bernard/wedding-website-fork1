@@ -251,8 +251,10 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  min-height: 500px;
+  height: 20vh;
+  width: 100%;
+  background: url('../img/dy/eucalyptus.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -314,14 +316,8 @@ header {
       margin-right: 20px;
     }
   }
-  .logo {
-    display: inline-block;
-  }
-  .logo img {
-    height: 19px;
-  }
   ul.primary-nav {
-    margin: 0 0 0 75px;
+    margin: 10 0 0 75px;
     padding: 0;
 
     li {
@@ -334,20 +330,40 @@ header {
         &:hover {
           color: $accent-color;
         }
-      }
-      &:last-child a {
-        padding-right: 0px;
+        &:last-child a {
+          padding-right: 0px;
+        }
       }
     }
   }
   ul.member-actions {
+    margin: 10 0 0 0;
     li {
       display: inline;
-
       a {
         color: $txt-light;
 
         &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+  ul.member-langs {
+    li {
+      padding-right: 15px;
+      padding-bottom: 50px;
+      display: inline;
+      a {
+        color: $txt-light;
+
+        &:hover {
+          color: $accent-color;
+        }
+        &:active {
+          color: $accent-color;
+        }
+        &:focus {
           color: $accent-color;
         }
       }
@@ -362,6 +378,12 @@ header {
     top: 41px;
     transition: all 300ms ease-in-out;
   }
+  .member-langs {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    transition: all 300ms ease-in-out;
+  }
 }
 .down-arrow {
   color: #fff;
@@ -370,13 +392,6 @@ header {
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-}
-
-/* ==========================================================================
-Social share buttons
-========================================================================== */
-.share-bar {
-  margin-top: 20px;
 }
 
 /* ==========================================================================
