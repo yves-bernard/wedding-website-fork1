@@ -6,7 +6,6 @@ var langs = document.querySelector(".member-langs"),
      header = document.querySelector(".header");
 
 link.forEach(el=>{
-     print("OK")
      el.addEventListener("click", ()=>{
           langs.querySelector(".active").classList.remove("active");
           el.classList.add("active");
