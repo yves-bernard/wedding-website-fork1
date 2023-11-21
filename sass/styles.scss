@@ -278,6 +278,7 @@ Hero
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 80px;
+    font-weight: bold;
   }
   .hero-content {
     padding-top: 40%;
@@ -295,7 +296,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(255, 250, 173, 0.301);
   z-index: 999;
   width: 100%;
 }
@@ -326,6 +327,7 @@ header {
       a {
         color: $txt-light;
         padding-right: 25px;
+        font-weight: bold;
 
         &:hover {
           color: $accent-color;
@@ -341,6 +343,7 @@ header {
     li {
       display: inline;
       a {
+        font-weight: bold;
         color: $txt-light;
 
         &:hover {
@@ -355,6 +358,7 @@ header {
       padding-bottom: 50px;
       display: inline;
       a {
+        font-weight: bold;
         color: $txt-light;
 
         &:hover {
